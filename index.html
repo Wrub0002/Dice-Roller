@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dicer Roller</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div id="container">
         <h1>Dice Roller</h1>
         <label for="numDice">Number of Dice:</label>
         <input type="number" id="numDice" value="1" min="1">
-        <button>Roll Dice</button>
+        <button onclick="rolldice()">Roll Dice</button>
         <div id="diceResult"></div>
         <div id="diceImages"></div>
 
